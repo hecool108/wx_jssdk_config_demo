@@ -1,0 +1,20 @@
+{
+  "name": "wx_jssdk_config_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify express/public/app.js -o express/public/bundle.js",
+    "server": "nodemon express/app.js"
+  },
+  "author": "Tiger Wang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "node-schedule": "^1.2.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
