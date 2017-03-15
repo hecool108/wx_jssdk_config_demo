@@ -7,8 +7,8 @@ var app = express()
 //These are the basic info which you can find on wechat open platform home page
 //http://mp.weixin.qq.com/
 //The Docs http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html
-let appId =  "wx7d2bdc635f39b539" //"your wechat appId"
-let appSecret =  "0143d4509b81babefa5503068bda7e67" //"your wechat appSecret"
+let appId =  "your wechat appId"
+let appSecret =  "your wechat appSecret"
 //WeChat access_token API endpoint
 let token_url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid="+appId+"&secret="+appSecret;
 //WeChat jsapi_ticket API endpoint
